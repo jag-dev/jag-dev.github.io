@@ -11,7 +11,7 @@ $(function () {
             $("#top").css("color", "rgba(98, 98, 98, 1)");
         } else if ($win.scrollTop() == 0) {
           $("#top").css("color", "rgba(99, 107, 116, 0.5)");
-          $("#side-nav").css("background-color", "rgba(99, 107, 116, 0.3)");
+          $("#side-nav").css("background-color", "rgba(33, 33, 33, 0.7)");
         }
     });
 });

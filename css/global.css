@@ -10,7 +10,7 @@
 }
 .side-widget {
   position: fixed;
-  background-color: rgba(99, 107, 116, 0.3);
+  background-color: rgba(33, 33, 33, 0.7);
   border-radius: 30px;
   float: left;
   top: 10vh;
@@ -41,7 +41,7 @@ a:hover {
   position: fixed;
   right: 2vw;
   margin-top: 85vh;
-  color: rgba(88, 88, 88, 0.5);
+  color: rgba(99, 107, 116, 0.5);
   font-size: 5.5em;
 }
 .top-nav:hover {
@@ -52,16 +52,17 @@ a:hover {
 .front {
   width: 100%;
   height: 100vh;
-  background-image: url('../img/bg.jpg');
+  background-image: url('../img/bg7.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   display: grid;
   place-items: center;
   border-bottom: #222 20px solid;
 }
 .front-logo {
-  min-width: 15vw;
+  min-width: 20vw;
   padding: 20px 30px 20px 30px;
   background-color: rgba(33, 33, 33, 0.8);
   text-align: center;
@@ -86,7 +87,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   .front { height: 50vh; }
   .profile { padding: 5vh; }
-  .front-logo-text { font-size: 2.5em; }
+  .front-logo img { width: 35vw; }
   .skills-title { font-size: 1.5em !important; text-align: center; }
   .projects-main-title { font-size: 1.5em !important; }
   .skill-desc { font-size: 1em !important; text-align: center; margin: 0 0 2vh 0 !important; }

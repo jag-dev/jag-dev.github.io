@@ -9,7 +9,7 @@
   width: auto;
   height: auto;
   padding: 30px;
-  margin-top: 3vh;
+  margin-top: 10vh;
   border-radius: 250px;
 }
 .about-title {
@@ -22,4 +22,5 @@
 .about-text {
   float: left;
   margin: 0 0 5vh 5vh;
+  letter-spacing: 2px;
 }
