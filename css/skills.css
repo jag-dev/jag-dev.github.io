@@ -37,3 +37,5 @@
 #java { color: rgb(168, 146, 110); border-top: 20px solid rgb(164, 125, 58); border-bottom: 20px solid rgb(164, 125, 58); }
 #web { color: rgb(148, 98, 89); border-top: 20px solid rgb(153, 81, 68); border-bottom: 20px solid rgb(153, 81, 68); }
 #it { color: rgb(111, 144, 150); border-top: 20px solid rgb(73, 133, 144); border-bottom: 20px solid rgb(73, 133, 144); }
+#build { color: rgb(119, 150, 111); border-top: 20px solid rgb(86, 125, 86); border-bottom: 20px solid rgb(86, 125, 86); }
+#config { color: rgb(145, 111, 150); border-top: 20px solid rgb(118, 86, 125); border-bottom: 20px solid rgb(118, 86, 125); }
